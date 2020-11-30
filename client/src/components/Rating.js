@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./style.min.css";
+
 const Rating = ({ rating }) => {
   const getStarRating = () => {
     const count = Math.round(rating * 2);

@@ -2,6 +2,8 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
+import "./style.min.css";
+
 import Rating from "./Rating";
 
 const Product = ({ key, product }) => {

@@ -1,5 +1,18 @@
 .product-screen {
   display: grid;
   grid-template-columns: 40% 35% 25%;
+  max-height: 100%;
+  overflow-y: scroll;
+  padding: 14px 2%;
   width: 100%;
+}
+
+.alert {
+  font-size: 28px;
+}
+.alert-info {
+  color: blue;
+}
+.alert-error {
+  color: red;
 }
