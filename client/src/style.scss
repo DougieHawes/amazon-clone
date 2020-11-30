@@ -15,7 +15,7 @@ $colour4: #7a4f38;
 
 .app {
   display: grid;
-  grid-auto-rows: 8% 86% 6%;
+  grid-auto-rows: auto 1fr auto;
   height: 100vh;
 }
 
@@ -42,6 +42,7 @@ main {
   flex-wrap: wrap;
   max-height: 100%;
   overflow-y: scroll;
+  padding: 14px 2%;
   .card {
     border: 2px solid $colour1;
     height: 420px;
@@ -60,4 +61,13 @@ footer {
   color: $colour3;
   padding: 3px 2%;
   text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    display: block;
+    .link {
+      float: right;
+    }
+  }
 }

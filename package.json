@@ -1,0 +1,23 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DougieHawes/amazon-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DougieHawes/amazon-clone/issues"
+  },
+  "homepage": "https://github.com/DougieHawes/amazon-clone#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
