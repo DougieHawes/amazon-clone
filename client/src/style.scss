@@ -1,0 +1,63 @@
+$colour1: #128482;
+$colour2: #d0491e;
+$colour3: #f4f4f4;
+$colour4: #7a4f38;
+
+* {
+  box-sizing: border-box;
+  color: $colour4;
+  font-family: "Rockwell";
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+  user-select: none;
+}
+
+.app {
+  display: grid;
+  grid-auto-rows: 8% 86% 6%;
+  height: 100vh;
+}
+
+header {
+  background-color: $colour1;
+  border-bottom: 3px solid $colour2;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 2%;
+  .logo {
+    font-size: 2rem;
+  }
+  .link {
+    font-size: 1.4rem;
+    margin-left: 6px;
+  }
+  * {
+    color: $colour3;
+  }
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100%;
+  overflow-y: scroll;
+  .card {
+    border: 2px solid $colour1;
+    height: 420px;
+    margin: 3px 15px;
+    padding: 6px 2% 12px 2%;
+    width: 280px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+footer {
+  background-color: $colour1;
+  border-top: 3px solid $colour2;
+  color: $colour3;
+  padding: 3px 2%;
+  text-align: right;
+}
